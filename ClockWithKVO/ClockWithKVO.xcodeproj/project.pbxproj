@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCFF1EA11CEC82D70093F727 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFF1EA01CEC82D70093F727 /* main.m */; };
+		DCFF1EA41CEC82D70093F727 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFF1EA31CEC82D70093F727 /* AppDelegate.m */; };
+		DCFF1EA71CEC82D70093F727 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFF1EA61CEC82D70093F727 /* ViewController.m */; };
+		DCFF1EAA1CEC82D70093F727 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCFF1EA81CEC82D70093F727 /* Main.storyboard */; };
+		DCFF1EAC1CEC82D70093F727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCFF1EAB1CEC82D70093F727 /* Assets.xcassets */; };
+		DCFF1EAF1CEC82D70093F727 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCFF1EAD1CEC82D70093F727 /* LaunchScreen.storyboard */; };
+		DCFF1EB81CEC83210093F727 /* Clock.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFF1EB71CEC83210093F727 /* Clock.m */; };
+		DCFF1EBD1CEC832D0093F727 /* ClockLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFF1EBA1CEC832D0093F727 /* ClockLayer.m */; };
+		DCFF1EBE1CEC832D0093F727 /* ClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFF1EBC1CEC832D0093F727 /* ClockView.m */; };
+		DCFF1EC61CEC83D70093F727 /* FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFF1EC11CEC83D70093F727 /* FBKVOController.m */; };
+		DCFF1EC71CEC83D70093F727 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCFF1EC21CEC83D70093F727 /* Info.plist */; };
+		DCFF1EC81CEC83D70093F727 /* NSObject+FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFF1EC51CEC83D70093F727 /* NSObject+FBKVOController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DCFF1E9C1CEC82D70093F727 /* ClockWithKVO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClockWithKVO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFF1EA01CEC82D70093F727 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCFF1EA21CEC82D70093F727 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCFF1EA31CEC82D70093F727 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCFF1EA51CEC82D70093F727 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DCFF1EA61CEC82D70093F727 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DCFF1EA91CEC82D70093F727 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCFF1EAB1CEC82D70093F727 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCFF1EAE1CEC82D70093F727 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCFF1EB01CEC82D70093F727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCFF1EB61CEC83210093F727 /* Clock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clock.h; sourceTree = "<group>"; };
+		DCFF1EB71CEC83210093F727 /* Clock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clock.m; sourceTree = "<group>"; };
+		DCFF1EB91CEC832D0093F727 /* ClockLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockLayer.h; sourceTree = "<group>"; };
+		DCFF1EBA1CEC832D0093F727 /* ClockLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockLayer.m; sourceTree = "<group>"; };
+		DCFF1EBB1CEC832D0093F727 /* ClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockView.h; sourceTree = "<group>"; };
+		DCFF1EBC1CEC832D0093F727 /* ClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockView.m; sourceTree = "<group>"; };
+		DCFF1EC01CEC83D70093F727 /* FBKVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKVOController.h; sourceTree = "<group>"; };
+		DCFF1EC11CEC83D70093F727 /* FBKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKVOController.m; sourceTree = "<group>"; };
+		DCFF1EC21CEC83D70093F727 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCFF1EC31CEC83D70093F727 /* KVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOController.h; sourceTree = "<group>"; };
+		DCFF1EC41CEC83D70093F727 /* NSObject+FBKVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FBKVOController.h"; sourceTree = "<group>"; };
+		DCFF1EC51CEC83D70093F727 /* NSObject+FBKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FBKVOController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCFF1E991CEC82D70093F727 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCFF1E931CEC82D70093F727 = {
+			isa = PBXGroup;
+			children = (
+				DCFF1E9E1CEC82D70093F727 /* ClockWithKVO */,
+				DCFF1E9D1CEC82D70093F727 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCFF1E9D1CEC82D70093F727 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCFF1E9C1CEC82D70093F727 /* ClockWithKVO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCFF1E9E1CEC82D70093F727 /* ClockWithKVO */ = {
+			isa = PBXGroup;
+			children = (
+				DCFF1EB61CEC83210093F727 /* Clock.h */,
+				DCFF1EB71CEC83210093F727 /* Clock.m */,
+				DCFF1EB91CEC832D0093F727 /* ClockLayer.h */,
+				DCFF1EBA1CEC832D0093F727 /* ClockLayer.m */,
+				DCFF1EBB1CEC832D0093F727 /* ClockView.h */,
+				DCFF1EBC1CEC832D0093F727 /* ClockView.m */,
+				DCFF1EA21CEC82D70093F727 /* AppDelegate.h */,
+				DCFF1EA31CEC82D70093F727 /* AppDelegate.m */,
+				DCFF1EA51CEC82D70093F727 /* ViewController.h */,
+				DCFF1EA61CEC82D70093F727 /* ViewController.m */,
+				DCFF1EA81CEC82D70093F727 /* Main.storyboard */,
+				DCFF1EAB1CEC82D70093F727 /* Assets.xcassets */,
+				DCFF1EAD1CEC82D70093F727 /* LaunchScreen.storyboard */,
+				DCFF1EB01CEC82D70093F727 /* Info.plist */,
+				DCFF1E9F1CEC82D70093F727 /* Supporting Files */,
+			);
+			path = ClockWithKVO;
+			sourceTree = "<group>";
+		};
+		DCFF1E9F1CEC82D70093F727 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCFF1EBF1CEC83D70093F727 /* FBKVOController */,
+				DCFF1EA01CEC82D70093F727 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCFF1EBF1CEC83D70093F727 /* FBKVOController */ = {
+			isa = PBXGroup;
+			children = (
+				DCFF1EC01CEC83D70093F727 /* FBKVOController.h */,
+				DCFF1EC11CEC83D70093F727 /* FBKVOController.m */,
+				DCFF1EC21CEC83D70093F727 /* Info.plist */,
+				DCFF1EC31CEC83D70093F727 /* KVOController.h */,
+				DCFF1EC41CEC83D70093F727 /* NSObject+FBKVOController.h */,
+				DCFF1EC51CEC83D70093F727 /* NSObject+FBKVOController.m */,
+			);
+			path = FBKVOController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCFF1E9B1CEC82D70093F727 /* ClockWithKVO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCFF1EB31CEC82D70093F727 /* Build configuration list for PBXNativeTarget "ClockWithKVO" */;
+			buildPhases = (
+				DCFF1E981CEC82D70093F727 /* Sources */,
+				DCFF1E991CEC82D70093F727 /* Frameworks */,
+				DCFF1E9A1CEC82D70093F727 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClockWithKVO;
+			productName = ClockWithKVO;
+			productReference = DCFF1E9C1CEC82D70093F727 /* ClockWithKVO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCFF1E941CEC82D70093F727 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zhuqunye;
+				TargetAttributes = {
+					DCFF1E9B1CEC82D70093F727 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6RP26K9BGF;
+					};
+				};
+			};
+			buildConfigurationList = DCFF1E971CEC82D70093F727 /* Build configuration list for PBXProject "ClockWithKVO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCFF1E931CEC82D70093F727;
+			productRefGroup = DCFF1E9D1CEC82D70093F727 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCFF1E9B1CEC82D70093F727 /* ClockWithKVO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCFF1E9A1CEC82D70093F727 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFF1EC71CEC83D70093F727 /* Info.plist in Resources */,
+				DCFF1EAF1CEC82D70093F727 /* LaunchScreen.storyboard in Resources */,
+				DCFF1EAC1CEC82D70093F727 /* Assets.xcassets in Resources */,
+				DCFF1EAA1CEC82D70093F727 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCFF1E981CEC82D70093F727 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFF1EA71CEC82D70093F727 /* ViewController.m in Sources */,
+				DCFF1EBD1CEC832D0093F727 /* ClockLayer.m in Sources */,
+				DCFF1EC61CEC83D70093F727 /* FBKVOController.m in Sources */,
+				DCFF1EA41CEC82D70093F727 /* AppDelegate.m in Sources */,
+				DCFF1EC81CEC83D70093F727 /* NSObject+FBKVOController.m in Sources */,
+				DCFF1EBE1CEC832D0093F727 /* ClockView.m in Sources */,
+				DCFF1EB81CEC83210093F727 /* Clock.m in Sources */,
+				DCFF1EA11CEC82D70093F727 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCFF1EA81CEC82D70093F727 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCFF1EA91CEC82D70093F727 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCFF1EAD1CEC82D70093F727 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCFF1EAE1CEC82D70093F727 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCFF1EB11CEC82D70093F727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCFF1EB21CEC82D70093F727 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCFF1EB41CEC82D70093F727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClockWithKVO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.daixiaomi.com.ClockWithKVO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCFF1EB51CEC82D70093F727 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClockWithKVO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.daixiaomi.com.ClockWithKVO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCFF1E971CEC82D70093F727 /* Build configuration list for PBXProject "ClockWithKVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFF1EB11CEC82D70093F727 /* Debug */,
+				DCFF1EB21CEC82D70093F727 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCFF1EB31CEC82D70093F727 /* Build configuration list for PBXNativeTarget "ClockWithKVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFF1EB41CEC82D70093F727 /* Debug */,
+				DCFF1EB51CEC82D70093F727 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCFF1E941CEC82D70093F727 /* Project object */;
+}
