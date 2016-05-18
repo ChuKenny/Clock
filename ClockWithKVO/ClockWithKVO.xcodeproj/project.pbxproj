@@ -16,9 +16,7 @@
 		DCFF1EB81CEC83210093F727 /* Clock.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFF1EB71CEC83210093F727 /* Clock.m */; };
 		DCFF1EBD1CEC832D0093F727 /* ClockLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFF1EBA1CEC832D0093F727 /* ClockLayer.m */; };
 		DCFF1EBE1CEC832D0093F727 /* ClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFF1EBC1CEC832D0093F727 /* ClockView.m */; };
-		DCFF1EC61CEC83D70093F727 /* FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFF1EC11CEC83D70093F727 /* FBKVOController.m */; };
-		DCFF1EC71CEC83D70093F727 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCFF1EC21CEC83D70093F727 /* Info.plist */; };
-		DCFF1EC81CEC83D70093F727 /* NSObject+FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFF1EC51CEC83D70093F727 /* NSObject+FBKVOController.m */; };
+		DCFF1ECB1CEC87C50093F727 /* FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFF1ECA1CEC87C50093F727 /* FBKVOController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,12 +36,8 @@
 		DCFF1EBA1CEC832D0093F727 /* ClockLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockLayer.m; sourceTree = "<group>"; };
 		DCFF1EBB1CEC832D0093F727 /* ClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockView.h; sourceTree = "<group>"; };
 		DCFF1EBC1CEC832D0093F727 /* ClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockView.m; sourceTree = "<group>"; };
-		DCFF1EC01CEC83D70093F727 /* FBKVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKVOController.h; sourceTree = "<group>"; };
-		DCFF1EC11CEC83D70093F727 /* FBKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKVOController.m; sourceTree = "<group>"; };
-		DCFF1EC21CEC83D70093F727 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCFF1EC31CEC83D70093F727 /* KVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOController.h; sourceTree = "<group>"; };
-		DCFF1EC41CEC83D70093F727 /* NSObject+FBKVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FBKVOController.h"; sourceTree = "<group>"; };
-		DCFF1EC51CEC83D70093F727 /* NSObject+FBKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FBKVOController.m"; sourceTree = "<group>"; };
+		DCFF1EC91CEC87C50093F727 /* FBKVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKVOController.h; sourceTree = "<group>"; };
+		DCFF1ECA1CEC87C50093F727 /* FBKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKVOController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,12 +101,8 @@
 		DCFF1EBF1CEC83D70093F727 /* FBKVOController */ = {
 			isa = PBXGroup;
 			children = (
-				DCFF1EC01CEC83D70093F727 /* FBKVOController.h */,
-				DCFF1EC11CEC83D70093F727 /* FBKVOController.m */,
-				DCFF1EC21CEC83D70093F727 /* Info.plist */,
-				DCFF1EC31CEC83D70093F727 /* KVOController.h */,
-				DCFF1EC41CEC83D70093F727 /* NSObject+FBKVOController.h */,
-				DCFF1EC51CEC83D70093F727 /* NSObject+FBKVOController.m */,
+				DCFF1EC91CEC87C50093F727 /* FBKVOController.h */,
+				DCFF1ECA1CEC87C50093F727 /* FBKVOController.m */,
 			);
 			path = FBKVOController;
 			sourceTree = "<group>";
@@ -175,7 +165,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCFF1EC71CEC83D70093F727 /* Info.plist in Resources */,
 				DCFF1EAF1CEC82D70093F727 /* LaunchScreen.storyboard in Resources */,
 				DCFF1EAC1CEC82D70093F727 /* Assets.xcassets in Resources */,
 				DCFF1EAA1CEC82D70093F727 /* Main.storyboard in Resources */,
@@ -189,11 +178,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCFF1ECB1CEC87C50093F727 /* FBKVOController.m in Sources */,
 				DCFF1EA71CEC82D70093F727 /* ViewController.m in Sources */,
 				DCFF1EBD1CEC832D0093F727 /* ClockLayer.m in Sources */,
-				DCFF1EC61CEC83D70093F727 /* FBKVOController.m in Sources */,
 				DCFF1EA41CEC82D70093F727 /* AppDelegate.m in Sources */,
-				DCFF1EC81CEC83D70093F727 /* NSObject+FBKVOController.m in Sources */,
 				DCFF1EBE1CEC832D0093F727 /* ClockView.m in Sources */,
 				DCFF1EB81CEC83210093F727 /* Clock.m in Sources */,
 				DCFF1EA11CEC82D70093F727 /* main.m in Sources */,
@@ -345,6 +333,7 @@
 				DCFF1EB51CEC82D70093F727 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
